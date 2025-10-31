@@ -10,4 +10,6 @@ switch (true) {
   case num % 5 === 0:
     console.log("5の倍数です");
     break;
+  default:
+    console.log(num)
 }
